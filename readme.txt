@@ -24,4 +24,10 @@ git merge dev：合并指定分支到当前分支
 git branch -d dev：删除指定分支
 git log --graph：查看分支合并图
 git log --graph --pretty=oneline --abbrev-commit：简易分支合并图
-test
+git merge --no-ff -m "注释" 指定分支：禁用Fast forward模式下合并
+git stash：将工作现场存储
+git stash apply：恢复工作现场，但不删除stash
+git stash drop：删除stash
+git stash pop：恢复的同时把stash也删除
+git stash list：查看stash内容
+git branch -D <name>：若一个分支没被合并，可强行删除
