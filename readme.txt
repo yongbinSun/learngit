@@ -31,4 +31,3 @@ git stash drop：删除stash
 git stash pop：恢复的同时把stash也删除
 git stash list：查看stash内容
 git branch -D <name>：若一个分支没被合并，可强行删除
-test
